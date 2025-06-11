@@ -1,6 +1,10 @@
+html{
+  background-color: red;
+}
 body {
   max-width: 1440px;
   margin: 0 auto;
+  background-color: white;
 }
 header {
   height: 83px;
@@ -38,6 +42,40 @@ header a {
 .headerright .account {
   gap: 12px;
   margin-right: 80px;
+}
+.trustedcompanies{
+  display: flex;
+  max-width: 1280px;
+  justify-content: space-between;
+  position: absolute;
+  top: -50px;
+}
+.trustedcompanies h3{
+  font-weight: 400;
+  font-size: 18px;
+  color: black;
+}
+.companies{
+  display: flex;
+  gap: 100px;
+}
+.google{
+  width: 103px;
+}
+.slack{
+  width: 133px;
+}
+.trustpilot{
+  width: 178px;
+}
+.cnn{
+  width: 70px;
+}
+.clutch{
+  width: 92.73px;
+}
+.companies img{
+  height: 56px;
 }
 /* ! Monitoring  */
 .monitoring h2 {
@@ -95,18 +133,26 @@ header a {
 }
 .phoneimg{
     position: absolute;
-    right: 22%;
-    bottom: -24%;
+    top: 25%;
+    left: 70%;
+    
 }
+
 .overwiev{
-    background-image: url(./);
+    background-image: url(./backgroundsvg/firstbackground.svg);
+}
+.overwievrelative{
+  position: relative;
 }
 .simplify{
   display: flex;
-  margin-top: 120px;
+  margin-top: 120px !important;
   gap: 20px;
   max-width: 1260px;
   margin: 0 auto;
+}
+.simplifyleft{
+  width: 628px;
 }
 .simplifyleft h3{
   font-size: 16px;
@@ -284,7 +330,7 @@ header a {
   margin-top: 150px;
 }
 .clarifyleft{
-  width: 703px;
+  width: 500px;
 }
 .clarifyleft h3{
   color: #EB2891;
@@ -316,6 +362,7 @@ header a {
   display: flex;
   justify-content: space-between;
   padding: 24px 64px 24px 24px;
+  max-width: 689px;
 }
 .differentclarify{
   display: block !important;
@@ -332,7 +379,7 @@ header a {
   font-size: 18px;
 }
 .pro{
-  background-image: url(./monitor.svg);
+  background-image: url(./backgroundsvg/monitor.svg);
   margin-top: 120px;
 }
 .pro h2{
