@@ -88,7 +88,6 @@ header a {
   max-width: 800px;
   margin: 0 auto;
   text-align: center;
-  margin-top: 73px;
   color: #172026;
 }
 .monitoring p {
@@ -406,7 +405,7 @@ header a {
 }
 .buttons{
   display: flex;
-  margin: 0 auto;
+  margin: 0 auto ;
   margin-top: 56px !important;
   padding-bottom: 89px;
 }
