@@ -334,7 +334,7 @@ header a {
   margin-top: 150px;
 }
 .clarifyleft{
-  width: 500px;
+  max-width: 500px;
 }
 .clarifyleft h3{
   color: #EB2891;
